@@ -6,7 +6,7 @@ What happens when a gravitational-lensing model puts light from a second star in
 
 In this simulation, the wrong model misses the true value more often while reporting almost the same error bars. The pattern left in the residuals makes the problem visible. No real observations were analyzed.
 
-[Read the case study](https://alisonthomasportfolio.com/projects/ghostlight) · [Explore the code](study/src/ghostlight) · [Methods](study/METHODOLOGY.md)
+[Read the case study](https://alisonthomasportfolio.com/projects/ghostlight) · [Explore the code](https://github.com/alithomas321/ghostlight/tree/main/study/src/ghostlight) · [Methods](study/METHODOLOGY.md)
 
 ## Run locally
 
