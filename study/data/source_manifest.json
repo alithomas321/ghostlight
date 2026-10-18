@@ -1,0 +1,98 @@
+{
+  "accessed": "2026-08-08",
+  "runtime_data_sources": [],
+  "scope_note": "Literature establishes equations and context only. No observational values are downloaded or ingested by the pipeline.",
+  "sources": [
+    {
+      "authors": "B. Paczynski",
+      "doi": "10.1086/164140",
+      "role": "Foundational point-source, point-lens photometric microlensing model.",
+      "title": "Gravitational microlensing by the galactic halo",
+      "url": "https://doi.org/10.1086/164140",
+      "year": 1986
+    },
+    {
+      "authors": "D. M. Goldberg",
+      "arxiv": "astro-ph/9708172",
+      "doi": "10.1086/305547",
+      "role": "Closest prior comparator for using astrometric centroid motion to diagnose and statistically deblend crowded microlensing events. Ghostlight does not claim this deblending idea or its centroid physics as new; it instead studies interval calibration after omitting a known offset term in a controlled linear-Gaussian design.",
+      "title": "Using Astrometry to Deblend Microlensing Events",
+      "url": "https://doi.org/10.1086/305547",
+      "year": 1998
+    },
+    {
+      "authors": "M. Dominik and K. C. Sahu",
+      "doi": "10.1086/308716",
+      "role": "Astrometric point-lens centroid motion and mass-distance interpretation.",
+      "title": "Astrometric Microlensing of Stars",
+      "url": "https://doi.org/10.1086/308716",
+      "year": 2000
+    },
+    {
+      "authors": "A. Gould",
+      "doi": "10.1086/317037",
+      "role": "Microlensing parameter relations, including angular Einstein scale, mass, and relative parallax.",
+      "title": "A Natural Formalism for Microlensing",
+      "url": "https://doi.org/10.1086/317037",
+      "year": 2000
+    },
+    {
+      "authors": "A. A. Nucita, F. De Paolis, G. Ingrosso, M. Giordano, and L. Manni",
+      "doi": "10.1142/S0218271817410152",
+      "role": "Review context for astrometric microlensing and blending effects.",
+      "title": "Astrometric microlensing",
+      "url": "https://doi.org/10.1142/S0218271817410152",
+      "year": 2017
+    },
+    {
+      "authors": "C. Y. Lam et al.",
+      "doi": "10.3847/2041-8213/ac7442",
+      "role": "OB110462 scientific context and published compact-object mass range; no data are reused.",
+      "title": "An Isolated Mass-gap Black Hole or Neutron Star Detected with Astrometric Microlensing",
+      "url": "https://doi.org/10.3847/2041-8213/ac7442",
+      "year": 2022
+    },
+    {
+      "authors": "C. Y. Lam and J. R. Lu",
+      "arxiv": "2308.03302",
+      "doi": "10.3847/1538-4357/aced4a",
+      "role": "OB110462 reanalysis context: approximately 1 mas astrometric change attributed to positional bias from a bright star about 0.4 arcsec away. Explicitly distinguished from this package's unresolved-centroid mechanism.",
+      "title": "A re-analysis of the isolated black hole candidate OGLE-2011-BLG-0462/MOA-2011-BLG-191",
+      "url": "https://arxiv.org/abs/2308.03302",
+      "year": 2023
+    },
+    {
+      "authors": "K. C. Sahu et al.",
+      "arxiv": "2503.07820",
+      "doi": "10.3847/1538-4357/adbe6e",
+      "role": "Current OB110462 context: an 11-year astrometric baseline, 7.15 +/- 0.83 solar-mass lens at 1.52 +/- 0.15 kpc, and conclusive black-hole classification. No data are reused.",
+      "title": "OGLE-2011-BLG-0462: An Isolated Stellar-Mass Black Hole Confirmed Using New HST Astrometry and Updated Photometry",
+      "url": "https://doi.org/10.3847/1538-4357/adbe6e",
+      "year": 2025
+    },
+    {
+      "authors": "E. B. Wilson",
+      "doi": "10.1080/01621459.1927.10502953",
+      "role": "Wilson score intervals for empirical coverage and false-confidence proportions.",
+      "title": "Probable Inference, the Law of Succession, and Statistical Inference",
+      "url": "https://doi.org/10.1080/01621459.1927.10502953",
+      "year": 1927
+    },
+    {
+      "authors": "T. P. Morris, I. R. White, and M. J. Crowther",
+      "doi": "10.1002/sim.8086",
+      "role": "ADEMP structure and Monte Carlo uncertainty guidance for planning, analyzing, and reporting the synthetic simulation study.",
+      "title": "Using simulation studies to evaluate statistical methods",
+      "url": "https://doi.org/10.1002/sim.8086",
+      "year": 2019
+    },
+    {
+      "authors": "P. Virtanen et al.",
+      "doi": "10.1038/s41592-019-0686-2",
+      "role": "Validated SciPy chi-square and noncentral-chi-square distribution implementation used for fixed-design residual tail areas, critical values, and rejection power.",
+      "title": "SciPy 1.0: fundamental algorithms for scientific computing in Python",
+      "url": "https://doi.org/10.1038/s41592-019-0686-2",
+      "year": 2020
+    }
+  ]
+}

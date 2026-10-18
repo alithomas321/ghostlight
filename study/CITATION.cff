@@ -1,0 +1,24 @@
+cff-version: "1.2.0"
+message: >-
+  Internal pre-release metadata only; do not cite or redistribute this file. Alison Thomas
+  is listed provisionally as project owner, not as an adjudicated sole author. Human
+  contribution review, release version, committed revision, repository URL, and persistent
+  identifier are unresolved.
+title: >-
+  Ghostlight: A known-truth astrometric microlensing calibration-sensitivity study
+type: software
+authors:
+  - given-names: Alison
+    family-names: Thomas
+abstract: >-
+  An AI-generated synthetic, known-truth research-software case study for coefficient bias,
+  interval coverage, and residual model adequacy when an offset unresolved blend is
+  incorrectly constrained to the microlensed source position. Human scientific and copy
+  approval remains pending, and no independent peer review has occurred.
+keywords:
+  - astrometric microlensing
+  - calibration
+  - Monte Carlo simulation
+  - model misspecification
+  - research software
+license: MIT

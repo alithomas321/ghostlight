@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.1",
+  "captured_at": "2026-08-08",
+  "status": "post_red_team_local_release_candidate_capture",
+  "scope": "Environment and integrity metadata only; not evidence of real-data validity, independent replication, human approval, or peer review.",
+  "source_identity": {
+    "git_head": null,
+    "git_tag": null,
+    "git_remote": null,
+    "source_archive": null,
+    "persistent_identifier": null,
+    "reason": "The inspected repository has no valid committed HEAD and no configured remote."
+  },
+  "local_environment": {
+    "operating_system": "macOS 26.5.2",
+    "kernel": "Darwin 25.5.0",
+    "architecture": "arm64",
+    "python": "3.12.11",
+    "python_compiler": "Clang 20.1.4",
+    "uv": "0.11.2 (02036a8ba 2026-03-26 aarch64-apple-darwin)",
+    "numpy": "2.5.1",
+    "scipy": "1.18.0",
+    "matplotlib": "3.11.1",
+    "pytest": "9.1.1",
+    "ruff": "0.16.1",
+    "blas": "Apple Accelerate",
+    "lapack": "Apple Accelerate",
+    "blas_lapack_version": null,
+    "numpy_default_bit_generator": "PCG64"
+  },
+  "sha256": {
+    "pyproject_toml": "1945781fa9f033affdb88b168366ebe5373fab288e6487e9c5797ed8b486eb58",
+    "uv_lock": "34d952b650bf3c8f01f84a9d7ceb66a0c04861dd875ff1089336fd80877a66f3",
+    "metrics_json_raw_bytes": "9668d8a4f00a4ac84a05c632712f1a0e063929eac9b8904a6412c5b9af5a678a",
+    "artifact_manifest_json_raw_bytes": "f1ad638dc790d0a2e5da29663fa4b52d050a76f023edbbfba13d289c079ab178",
+    "canonical_parity_fixture_json_raw_bytes": "f4418be1b12b1bcba608f3249f8a364ec3d785eb16f1719cf0f3374b8ed22128",
+    "canonicalized_recomputed_metrics": "60dcaefab47670e77f9167d413277c2dd5dfba1851b669d152eb0eee61fff66c",
+    "study_specification": "0069b146227fdc3dd2948cfc82968ee619c36c2dcc4644bd5e08398c4575ace0",
+    "updated_source_manifest_json": "37b81e7189614c486323cb2f5c225aac7648526d6cf620c8ed1634c57605068b",
+    "scenario_metrics_csv": "bc13f8e6275f4896b206b3dedd6ac658e2e877cb3dda6b01abe55ca3acde7d78",
+    "primary_mean_residuals_csv": "71e02ab1d06189711756f191d6517a81db7f51fa424328b1352cbfac1bf7bd20",
+    "primary_mean_residuals_png": "c8c7a32b75818b7d0ed6c38d71c90a1083d6ce6fb92f0f228e691ee4af37dbd5",
+    "protected_schema2_evidence_projection": "185f7c2512eeb13f2456bc8275afec19dbbc1ef8ff67a6dc2d4ba016364f5b9d",
+    "protected_schema3_evidence_projection": "96a4acd00b78548e8d6bbaa980c4f31a39f611225711ea65c8fa946090a4980c"
+  },
+  "verified_release_candidate": {
+    "metrics_schema_version": "3.0",
+    "artifact_count": 16,
+    "synthetic_dataset_count": 162000,
+    "python_test_count": 57,
+    "random_draws_created_during_reporting_refresh": false,
+    "stochastic_run_command_executed_during_remediation": false
+  },
+  "container": {
+    "definition": "Dockerfile",
+    "base_image_tag": "ghcr.io/astral-sh/uv:0.11.2-python3.12-bookworm-slim",
+    "base_image_digest": null,
+    "build_executed": false,
+    "image_digest": null,
+    "published": false
+  },
+  "continuous_integration": {
+    "definition": ".github/workflows/ci.yml",
+    "executed": false,
+    "run_url": null,
+    "status_badge": null
+  },
+  "limitations": [
+    "The lockfile does not freeze operating-system libraries, CPU behavior, or BLAS/LAPACK implementation.",
+    "The versioned container base tag is not yet digest-pinned.",
+    "No valid commit, archive, CI run, container build, owner sign-off, or independent peer review exists."
+  ]
+}

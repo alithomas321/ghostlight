@@ -1,0 +1,86 @@
+{
+  "artifacts": [
+    {
+      "bytes": 6864,
+      "path": "outputs/RESULTS.md",
+      "sha256": "089d7653bb1fea179e9d2701a0eddc80f755475d6890c3eee27a1481069c7830"
+    },
+    {
+      "bytes": 234978,
+      "path": "outputs/figures/calibration_sensitivity_atlas.png",
+      "sha256": "da0ea544cfeee440c6074e4459465258e8a986b4a76fa9e9ae2f88a32a12fbd4"
+    },
+    {
+      "bytes": 77984,
+      "path": "outputs/figures/coverage_oracle.png",
+      "sha256": "cbaf88167a333a4e6bbc8d4cf08aebe4ec475ecf7d7dea8c397f07fa78d97aa8"
+    },
+    {
+      "bytes": 125525,
+      "path": "outputs/figures/event_geometry.png",
+      "sha256": "37f0b57511040acd05d41fa343fd5f1e558c7351b5726c4cae40417d9d1b8641"
+    },
+    {
+      "bytes": 99730,
+      "path": "outputs/figures/mass_distance_degeneracy.png",
+      "sha256": "a0150d20faaf5563001ed0bf32ec68d6449c632d4420e472ccef19e02dd70830"
+    },
+    {
+      "bytes": 74942,
+      "path": "outputs/figures/omitted_bias_validation.png",
+      "sha256": "171623dd32c40507e581c7026eaf806f3bfc84d0410970cea7b7e6fc8c24be3c"
+    },
+    {
+      "bytes": 147566,
+      "path": "outputs/figures/orientation_sensitivity.png",
+      "sha256": "05eba4b70630d206889e504142b4678701a2e186ef543244300ad614504c73a0"
+    },
+    {
+      "bytes": 114473,
+      "path": "outputs/figures/primary_coverage_gap.png",
+      "sha256": "5452b9896669f7d4722f87690831d901b95e40c49fdcfd26dc63a07400126860"
+    },
+    {
+      "bytes": 99165,
+      "path": "outputs/figures/primary_mean_residuals.png",
+      "sha256": "c8c7a32b75818b7d0ed6c38d71c90a1083d6ce6fb92f0f228e691ee4af37dbd5"
+    },
+    {
+      "bytes": 40862,
+      "path": "outputs/metrics.json",
+      "sha256": "9668d8a4f00a4ac84a05c632712f1a0e063929eac9b8904a6412c5b9af5a678a"
+    },
+    {
+      "bytes": 30303,
+      "path": "outputs/tables/mass_distance_ridge.csv",
+      "sha256": "a38625131c086b025c0c90503ea706b6e0c5717daac7634946d58ebe8893fcd2"
+    },
+    {
+      "bytes": 53904,
+      "path": "outputs/tables/orientation_sensitivity.csv",
+      "sha256": "232f6a09e1ee2b8b6af054a8a9ebf0f959ddee8e69a1efb98bf817c517b2241e"
+    },
+    {
+      "bytes": 289873,
+      "path": "outputs/tables/primary_cell_trials.csv",
+      "sha256": "7e99728ef5bc8a3438a0793d9473dc41b7d4380654097f07b3f23c3b9401f5d7"
+    },
+    {
+      "bytes": 10361,
+      "path": "outputs/tables/primary_mean_residuals.csv",
+      "sha256": "71e02ab1d06189711756f191d6517a81db7f51fa424328b1352cbfac1bf7bd20"
+    },
+    {
+      "bytes": 9386,
+      "path": "outputs/tables/scenario_inputs.csv",
+      "sha256": "a7b5ec33785d086ba31b3696b298d749b868473ac225d75809f0fc3419266daf"
+    },
+    {
+      "bytes": 359068,
+      "path": "outputs/tables/scenario_metrics.csv",
+      "sha256": "bc13f8e6275f4896b206b3dedd6ac658e2e877cb3dda6b01abe55ca3acde7d78"
+    }
+  ],
+  "hash_algorithm": "sha256",
+  "schema_version": "1.0"
+}

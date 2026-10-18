@@ -1,0 +1,47 @@
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ghostlight-microlensing-lab"
+version = "1.0.0"
+description = "AI-generated known-truth astrometric microlensing calibration case study"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+keywords = ["astrometry", "microlensing", "monte-carlo", "calibration", "astronomy"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Science/Research",
+  "Programming Language :: Python :: 3",
+  "Topic :: Scientific/Engineering :: Astronomy",
+  "Topic :: Scientific/Engineering :: Physics",
+]
+dependencies = [
+  "matplotlib>=3.10,<4",
+  "numpy>=2.2,<3",
+  "scipy>=1.15,<2",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.4,<10",
+  "ruff>=0.12,<1",
+]
+
+[project.scripts]
+ghostlight = "ghostlight.__main__:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/ghostlight"]
+
+[tool.pytest.ini_options]
+addopts = "-ra"
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
